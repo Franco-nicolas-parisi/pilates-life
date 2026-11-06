@@ -179,6 +179,21 @@ nav a:not(.boton):hover::after, nav a:not(.boton):focus-visible::after { transfo
 
 
 /* ----- CLASES ----- */
+/* Distribución: a la izquierda Clase de prueba (arriba, lo primero que se ve)
+   y Combinados (abajo); a la derecha Reformer, que es la más alta.
+   En celular van una debajo de otra */
+.grilla-clases {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas:
+    "prueba     reformer"
+    "combinados reformer";
+}
+.tarjeta-reformer   { grid-area: reformer; }
+.tarjeta-prueba     { grid-area: prueba; }
+.tarjeta-combinados { grid-area: combinados; }
+/* El link "Consultar disponibilidad" queda siempre abajo de la tarjeta */
+#clases .link-flecha { margin-top: auto; align-self: flex-start; }
+
 /* Hover de las tarjetas */
 #clases .tarjeta {
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
@@ -397,6 +412,10 @@ footer { background: #21182A; color: #CBB8DA; padding: 22px; font-size: 14px; te
   nav .boton { justify-content: center; margin-top: 12px; }
 
   section { scroll-margin-top: 90px; }
+
+  /* Clases: una columna, en el orden del HTML (clase de prueba primero) */
+  .grilla-clases { grid-template-columns: 1fr; grid-template-areas: none; }
+  .tarjeta-reformer, .tarjeta-prueba, .tarjeta-combinados { grid-area: auto; }
 }
 
 /* Si la persona tiene las animaciones desactivadas en su compu, nada se mueve */
