@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Pilates Reformer Life | José C. Paz</title>
+  <meta name="description" content="Clases grupales de Pilates Reformer en José C. Paz. Anotate por WhatsApp.">
+
+  <!-- Ícono de la pestaña (favicon) y del acceso directo en celulares -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Vista previa al compartir el link (WhatsApp, Instagram, Facebook).
+       Si cambia la dirección de la web (ej: dominio propio), actualizala en og:url y og:image -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Estudio Pilates Reformer Life | José C. Paz">
+  <meta property="og:description" content="Clases grupales de Pilates Reformer. ¡Tu primera clase de prueba es gratis! Anotate por WhatsApp.">
+  <meta property="og:url" content="https://franco-nicolas-parisi.github.io/pilates-life/">
+  <meta property="og:image" content="https://franco-nicolas-parisi.github.io/pilates-life/fotos/compartir.jpg">
+  <meta property="og:locale" content="es_AR">
+  <meta name="theme-color" content="#6B3FA0">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ===================== MENÚ ===================== -->
+  <header>
+    <div class="contenedor menu">
+      <a href="#inicio" class="logo"><img src="fotos/logo.png" alt="Pilates Reformer Life" class="logo-img"></a>
+      <!-- Botón hamburguesa: solo se ve en celular (ver script.js) -->
+      <button type="button" class="menu-boton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu-nav" aria-label="Secciones">
+        <a href="#clases">Clases</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#estudio">El estudio</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+        <a class="boton" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20info%20sobre%20las%20clases%20de%20Pilates%20Reformer.">Anotate por WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== PORTADA ===================== -->
+  <section id="inicio">
+    <div class="contenedor portada">
+      <div class="portada-texto">
+        <p class="etiqueta">Pilates Reformer en José C. Paz</p>
+        <h1>Sé la mejor versión de vos misma.</h1>
+        <p>Clases grupales de Pilates Reformer, con atención personalizada en un estudio cerca tuyo.</p>
+        <div class="botones">
+          <a class="boton" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20reservar%20una%20clase.">Reservá tu clase</a>
+          <a class="boton boton-borde" href="#clases">Ver clases</a>
+        </div>
+        <div class="datos">
+          <span><strong>4,6 ★</strong> en Google (16 opiniones)</span>
+          <span><strong>+3.100</strong> seguidores en Instagram</span>
+        </div>
+      </div>
+      <img src="fotos/portada.jpeg" alt="Foto del estudio de pilates y sus camillas" class="portada-foto">
+    </div>
+  </section>
+
+  <!-- ===================== CLASES ===================== -->
+  <section id="clases">
+    <div class="contenedor">
+      <h2>Clases</h2>
+      <p class="subtitulo">Entrená en grupos reducidos, con atención en cada ejercicio.</p>
+      <div class="grilla">
+        <!-- Tarjeta 1: clase de prueba (va primera para que se vea antes que los precios) -->
+        <div class="tarjeta tarjeta-destacada">
+          <p class="etiqueta-destacada">¿Primera vez?</p>
+          <h3>Clase de prueba</h3>
+          <p>Vení a conocer el estudio y probar el reformer antes de anotarte. No necesitás experiencia previa.</p>
+          <p class="precio-gratis">¡Es gratis!</p>
+          <a class="boton" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20reservar%20una%20clase%20de%20prueba.">Reservar clase de prueba</a>
+        </div>
+        <!-- Tarjeta 2: Pilates Reformer -->
+        <div class="tarjeta">
+          <h3>Pilates Reformer</h3>
+          <p class="dato-chico">45 min de clase + 5 min de estiramiento y relajación</p>
+          <!-- Precios: agregá o quitá filas <li> según los abonos -->
+          <ul class="precios">
+            <li><span>Clase suelta</span><strong>$12.000</strong></li>
+            <li><span>1 vez por semana</span><strong>$44.000</strong></li>
+            <li><span>2 veces por semana</span><strong>$48.000</strong></li>
+            <li><span>3 veces por semana</span><strong>$55.000</strong></li>
+            <li><span>4 veces por semana</span><strong>$66.000</strong></li>
+            <li><span>5 veces por semana</span><strong>$72.000</strong></li>
+            <li class="precio-promo"><span>Promo jubilados · 2 veces por semana</span><strong>$38.000</strong></li>
+          </ul>
+          <p class="dato-chico">Abonos mensuales.</p>
+          <a class="link-flecha" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20info%20sobre%20las%20clases%20de%20Pilates%20Reformer.">Consultar disponibilidad →</a>
+        </div>
+        <!-- Tarjeta 3: combinados -->
+        <div class="tarjeta">
+          <h3>Combinados</h3>
+          <p>Sumá otro aparato al reformer para variar el entrenamiento.</p>
+          <div class="combo">
+            <h4>Reformer + Cadillac o Bici</h4>
+            <ul class="precios">
+              <li><span>Clase suelta</span><strong>$15.000</strong></li>
+              <li><span>2 veces por semana</span><strong>$58.000</strong></li>
+            </ul>
+          </div>
+          <a class="link-flecha" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20info%20sobre%20las%20clases%20combinadas.">Consultar disponibilidad →</a>
+        </div>
+      </div>
+
+      <!-- Beneficios del Reformer -->
+      <h3 class="titulo-beneficios">Beneficios del Pilates Reformer</h3>
+      <ul class="beneficios">
+        <li>
+          <strong>Mejor postura</strong>
+          <span>Fortalece la espalda y el centro del cuerpo.</span>
+        </li>
+        <li>
+          <strong>Más fuerza</strong>
+          <span>Tonifica todo el cuerpo con la resistencia de los resortes.</span>
+        </li>
+        <li>
+          <strong>Más flexibilidad</strong>
+          <span>Mejora la movilidad y el rango de movimiento.</span>
+        </li>
+        <li>
+          <strong>Bajo impacto</strong>
+          <span>Cuida las articulaciones; se adapta a todos los niveles.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== HORARIOS ===================== -->
+  <section id="horarios">
+    <div class="contenedor">
+      <h2>Horarios</h2>
+      <p class="subtitulo">Horario de atención del estudio.</p>
+
+      <div class="horarios">
+        <div class="horario-dia">
+          <h3>Lunes, miércoles y viernes</h3>
+          <ul>
+            <li><span>Mañana</span><strong>08.00 a 12.00 HS</strong></li>
+            <li><span>Tarde</span><strong>14.00 a 21.00 HS</strong></li>
+          </ul>
+        </div>
+        <div class="horario-dia">
+          <h3>Martes y jueves</h3>
+          <ul>
+            <li><span>Mañana</span><strong>08.00 a 12.00 HS</strong></li>
+            <li><span>Tarde</span><strong>13.00 a 21.00 HS</strong></li>
+          </ul>
+        </div>
+        <div class="horario-dia">
+          <h3>Sábados</h3>
+          <ul>
+            <li><span>Mañana</span><strong>08.00 a 12.00 HS</strong></li>
+          </ul>
+        </div>
+      </div>
+      <p class="dato-chico nota-horarios">Domingos, cerrado.</p>
+
+      <!-- Aviso de cupos: la agenda está casi llena -->
+      <div class="aviso-cupos">
+        <div>
+          <h3>Quedan pocos lugares</h3>
+          <p>Escribinos por WhatsApp y te contamos qué horarios tenemos disponibles.</p>
+        </div>
+        <a class="boton" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20consultar%20qu%C3%A9%20horarios%20tienen%20disponibles.">Consultar horarios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EL ESTUDIO (fotos) ===================== -->
+  <section id="estudio">
+    <div class="contenedor">
+      <h2>El estudio</h2>
+      <div class="galeria">
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/clase-reformer.jpg" alt="Clase grupal en los reformers con el cartel de neón del estudio"></button>
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/clase-profe.jpg" alt="La profesora guiando un ejercicio con barra a la clase"></button>
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/cadillac.jpg" alt="Alumna haciendo un ejercicio de apertura en el Cadillac" style="object-position: 50% 60%;"></button>
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/estiramiento.jpg" alt="Alumnas estirando en los reformers" style="object-position: 50% 60%;"></button>
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/chair.jpg" alt="Alumna entrenando en la silla de pilates" style="object-position: 50% 55%;"></button>
+        <button type="button" class="galeria-item" aria-label="Ver foto en grande"><img src="fotos/clase-pesas.jpg" alt="Clase con pesas en los reformers"></button>
+      </div>
+      <a class="link-flecha" href="https://www.instagram.com/pilats_life/">Ver más en Instagram @pilats_life →</a>
+    </div>
+  </section>
+
+  <!-- ===================== OPINIONES ===================== -->
+  <section id="opiniones">
+    <div class="contenedor">
+      <h2>Lo que dicen las alumnas</h2>
+      <p class="subtitulo"><strong>4,6 ★</strong> · 16 opiniones en Google</p>
+      <div class="grilla">
+        <figure class="tarjeta">
+          <figcaption>Rosario</figcaption>
+          <p class="estrellas" aria-label="5 estrellas">★★★★★</p>
+          <blockquote>
+            Amo sus clases desde que comencé! Martina y las demás profes una genia.
+            Adaptan cada ejercicio para cualquiera que necesite ya que pueden ir personas jóvenes pero también gente grande y aún así todos hacemos nuestro entrenamiento completo!
+          </blockquote>
+        </figure>
+        <figure class="tarjeta">
+          <figcaption>Elena Campos</figcaption>
+          <p class="estrellas" aria-label="5 estrellas">★★★★★</p>
+          <blockquote>
+            Excelente!!!!  Las clases son dinámicas y siempre con ejercicios distintos, personalizado, ya que la Profesora está atenta a cada una de nosotras. Realmente estoy muy contenta, los felicito y lo recomiendo.
+          </blockquote>
+        </figure>
+        <figure class="tarjeta">
+          <figcaption>Graciela Puw</figcaption>
+          <p class="estrellas" aria-label="5 estrellas">★★★★★</p>
+          <blockquote>
+            Es fantástico
+            ...tengo 75 años y encontré el lugar ideal excelentes profesores y con una paciencia sin fin
+            ....buen lugar para recomendar.....
+          </blockquote>
+        </figure>
+      </div>
+      <a class="link-flecha link-opiniones" href="https://www.google.com/maps/search/?api=1&query=Estudio+Pilates+Reformer+Life+Agrelo+1780+Jos%C3%A9+C.+Paz">Ver todas las opiniones en Google →</a>
+    </div>
+  </section>
+
+  <!-- ===================== PREGUNTAS FRECUENTES ===================== -->
+
+  <section id="preguntas">
+    <div class="contenedor contenedor-angosto">
+      <h2>Preguntas frecuentes</h2>
+
+      <h3 class="faq-grupo">Antes de empezar</h3>
+      <div class="faq">
+        <details>
+          <summary>¿Qué tengo que llevar a la clase?</summary>
+          <ul>
+            <li>Tu carnet, en todas las clases.</li>
+            <li>Ropa cómoda y adecuada para la práctica.</li>
+            <li>Una toalla personal.</li>
+            <li>Tu botella de agua para mantenerte hidratada.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>¿Hay normas para tener en cuenta durante la clase?</summary>
+          <ul>
+            <li>Venir con el pelo sujeto, para mayor comodidad y seguridad.</li>
+            <li>No asistir con joyas ni bijouterie, para cuidar los equipos.</li>
+            <li>No mascar chicle durante la clase.</li>
+            <li>Llegar puntual para aprovechar la clase completa.</li>
+            <li>Desinfectar el equipo y los elementos utilizados al terminar.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>¿Qué pasa si llego tarde a la clase?</summary>
+          <p>La profesora no repetirá la entrada en calor. Podés sumarte a la clase en curso, de forma segura y progresiva.</p>
+        </details>
+      </div>
+
+      <h3 class="faq-grupo">Asistencia y recuperación de clases</h3>
+      <div class="faq">
+        <details>
+          <summary>¿Puedo recuperar una clase?</summary>
+          <p>Sí, siempre que avises y confirmes la nueva fecha con 24 HS de anticipación, según la disponibilidad de la agenda.</p>
+          <p>Podés avisar de lunes a sábados de 08.00 a 12.00 HS y de lunes a viernes de 14.00 a 20.00 HS.</p>
+        </details>
+        <details>
+          <summary>¿Puedo extender el período de recuperación?</summary>
+          <p>No. Las clases deben recuperarse dentro del pack de clases contratado.</p>
+        </details>
+        <details>
+          <summary>¿Qué pasa si aviso el mismo día o no asisto?</summary>
+          <p>En ese caso, la clase se considera perdida.</p>
+        </details>
+        <details>
+          <summary>¿A quiénes aplica esta política?</summary>
+          <p>Únicamente a las alumnas que abonan de forma mensual.</p>
+        </details>
+        <details>
+          <summary>¿Los feriados se recuperan?</summary>
+          <p>Sí, siempre según la disponibilidad de la agenda.</p>
+        </details>
+      </div>
+
+      <p class="dato-chico faq-cierre">Estas pautas nos ayudan a mantener una mejor organización y a tener tu camilla lista cuando llegás. ¡Gracias por tu compromiso!</p>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+
+  <section id="contacto" class="contacto">
+    <div class="contenedor contacto-grilla">
+      <div>
+        <h2>Vení a probar una clase</h2>
+        <p>Escribinos por WhatsApp y te contamos los horarios disponibles.</p>
+        <a class="boton" href="https://wa.me/5491167474930?text=Hola!%20Quiero%20probar%20una%20clase.">Escribir por WhatsApp</a>
+      </div>
+      <div>
+        <div>
+          <div class="rotulo">Dirección</div>
+          <div>Agrelo 1780, José C. Paz, Buenos Aires</div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Estudio+Pilates+Reformer+Life+Agrelo+1780+Jos%C3%A9+C.+Paz"><strong>Cómo llegar →</strong></a>
+        </div>
+        <div>
+          <div class="rotulo">Teléfono</div>
+          <a href="tel:+541167474930">011 6747-4930</a>
+        </div>
+        <div>
+          <div class="rotulo">Instagram</div>
+          <a href="https://www.instagram.com/pilats_life/">@pilats_life</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Estudio Pilates Reformer Life · José C. Paz</p>
+    <p class="firma">Sitio web por <a href="https://wa.me/5491134321996?text=Hola%20Franco!%20Vi%20la%20web%20de%20Pilates%20Reformer%20Life%20y%20me%20interesa%20una%20para%20mi%20negocio.">Franco Parisi</a></p>
+  </footer>
+
+  <!-- ===================== VISOR DE FOTOS ===================== -->
+
+  
+  <dialog id="visor" class="visor" aria-label="Foto en grande">
+    <button type="button" class="visor-cerrar" aria-label="Cerrar">×</button>
+    <img alt="" class="visor-img">
+  </dialog>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
